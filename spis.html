@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-2"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+  <meta name="Description" content=" Strona poświęcona książkom, ich ocenie i recenzjom.">
+  <meta name="Keywords" content=" książki książka recenzja opinia bookweb">
+  <meta name="Author" content="Agata Jasiek">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  
+  <title> Bookweb - strona główna </title>
+  
+<script type="text/javascript">
+<!--
+function wiadomosc(n) {
+var czas = 8000;
+var tablica = new Array();
+tablica[0] = "<p>TYTUŁ:</br></br></p>Ogniem i Mieczem<p>AUTOR:</br></br></p>Henryk Sienkiewicz<p>OPIS:</br></br></p>Kresy Wschodnie, XVII w. Zbliża się wojna pomiędzy Rzeczpospolitą a Kozaczyzną. Książka opowiada o wielkich namiętnościach - miłości i nienawiści, zazdrości i żądzy władzy.";
+tablica[1] = "<p>TYTUŁ:</br></br></p>Władca Pierścieni<p>AUTOR:</br></br></p>John Ronald Reuel Tolkien<p>OPIS:</br></br></p>Akcja powieści rozpoczyna się 60 lat po wydarzeniach opisanych w Hobbicie. Czarodziej Gandalf po przybyciu do Shire, kraju hobbitów odkrywa że magiczny pierścień będący w posiadaniu hobbita Bilbo Bagginsa to w rzeczywistości Jedyny Pierścień stworzony przez władcę ciemności, Saurona który pozwala kontrolować inne Pierścienie Władzy.";
+tablica[2] = "<p>TYTUŁ:</br></br></p>Metro 2033<p>AUTOR:</br></br></p>Dmitry Glukhovsky<p>OPIS:</br></br></p> Książka opisująca życie ludzi chroniących się w moskiewskim metrze po wojnie atomowej. Książka zawiera przemyślenia natury filozoficznej, psychologicznej, socjologicznej (krytyka społecznych relacji), ma cechy satyry politycznej, antyutopii. Jest to wielowarstwowa opowieść o dorastaniu człowieka, szukaniu swojego miejsca w życiu, przeznaczenia.";
+tablica[3] = "<p>TYTUŁ:</br></br></p>Narrenturm<p>AUTOR:</br></br></p>Andrzej Sapkowski<p>OPIS:</br></br></p>Tematem powieści są przygody Reinmara z Bielawy, zwanego Reynevanem. Akcja Narrenturm rozgrywa się na Dolnym Śląsku w roku 1425. Tłem dla powieści są wojny husyckie. Akcja rozpoczyna się, gdy bracia Sterczowie spotykają Reinmara z Bielawy w łóżku z Adelą von Stercza, żoną Gelfrada von Stercza. ";
+
+document.getElementById("wiadomosc").innerHTML = tablica[n];
+if (n < tablica.length-1) {
+n = (n+1);
+}
+else {
+n = 0;
+}
+setTimeout("wiadomosc("+n+")", czas);
+}
+-->
+</script>
+
+
+</head>
+
+<body onload="wiadomosc(0);">
+
+  <div id="top">
+
+		<div id="NAGLOWEK"></div>
+
+		<div id="MENU">
+    
+      <ul><li><a href="index.html">STRONA GŁÓWNA</a></li></ul>
+      <hr><ul><li><div id="infospis">SPIS KSIĄŻEK:</div></li></ul></hr>
+		<ul type="circle">
+		<li><a href="k1.html">Ogniem i Mieczem</a></li>
+		<li><a href="k2.html">Władca Pierścieni</a></li>
+		<li><a href="k3.html">Metro 2033</a></li>
+		<li><a href="k4.html">Narrenturm</a></li>
+		</ul>
+		<hr><ul><li><a href="kontakt.html">KONTAKT</a></li></ul></hr>
+    
+		</div>
+
+
+		<div id="INFORMACJE">
+			<ul><li><div id="info">
+			NOWOŚCI NA STRONIE
+			</div></li></ul>
+			<hr><div id="wiadomosc"></div></hr>
+		</div>
+		<div id="TRESC">Tresc strony</div>
+		<div id="STOPKA">Copyright 2016 by Agata Jasiek. All rights reserved.</div>
+		</div>
+</body>
+</html>

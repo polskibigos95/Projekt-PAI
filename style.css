@@ -1,0 +1,157 @@
+html, body {
+	background-color: black;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+}
+
+#top {
+	width: 980px;
+	height: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	border-left-style: groove;
+	border-right-style: groove;
+	border-top-style: groove;
+	border-bottom-style: groove;
+
+}
+
+#NAGLOWEK {
+	height: 143px;
+	background-color: #888;
+	background-image: url('logo12.jpg');
+	border-top-style: groove;
+	border-bottom-style: groove;
+	border-left-style: groove;
+	border-right-style: groove;
+}
+
+#MENU {
+	width: 212px;
+	height: 722px;
+	float: left;
+	overflow: hidden;
+	background-color: #E8E4CF;
+	border-top-style: groove;
+	border-bottom-style: groove;
+	border-left-style: groove;
+	border-right-style: groove;
+}
+
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	width: 200px;
+	padding: 2px 2px 1px 2px;
+	background-color: #BDBDBD;
+	border: 3px double #E6E6E6;
+}
+
+ul li {
+	border-bottom: 1px solid #BDBDBD;
+}
+
+ul a:link, ul a:visited {
+	display: block;
+	width: 176px;
+	text-decoration: none;
+	padding: 7px;
+	font-weight: bold;
+	background-color: dimgray;
+	color: #def;
+	border-left: 10px solid #966623;
+}
+
+ul a:hover {
+	width: 166px;
+	background-color: #999999;
+	color: #fff;
+	border-left: 20px solid #966623;
+}
+
+p
+{
+	 color: #966623;
+	 text-align: center;
+	 padding: 0 px 0px 7px;
+	 border-bottom-style: dashed;
+}
+
+#info 
+{
+	display: block;
+	width: 169px;
+	text-decoration: none;
+	padding: 7px;
+	font-weight: bold;
+	background-color: dimgray;
+	color: #def;
+	border-right: 10px solid #966623;
+}
+#infospis
+{
+	display: block;
+	width: 176px;
+	text-decoration: none;
+	padding: 7px;
+	font-weight: bold;
+	background-color: dimgray;
+	color: #def;
+	border-left: 10px solid #966623;
+}
+
+
+#INFORMACJE {
+	width: 200px;
+	height: 722px;
+	float: right;
+	overflow: hidden;
+	background-color: #E8E4CF;
+	border-top-style: groove;
+	border-bottom-style: groove;
+	border-left-style: groove;
+	border-right-style: groove;
+}
+
+#wiadomosc 
+{
+ width: 155px;
+ border: 1px solid #333333;
+ background-color: #ffffff;
+ height: 600px;
+ margin: 10px 10px 10px 10px;
+ padding : 10px;
+}
+
+#TRESC {
+	overflow-y:scroll;
+	width: 536px;
+	height: 708px;
+	padding : 10px;
+	float: center;
+	background-color: #F2F0E4;
+	text-align: justify;
+
+}
+
+
+
+#STOPKA {
+	clear: both;
+	width: 974px;
+	border-top-style: groove;
+	border-bottom-style: groove;
+	border-left-style: groove;
+	border-right-style: groove;
+	background-color: #663300;
+
+}
